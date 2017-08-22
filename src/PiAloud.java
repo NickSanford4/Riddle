@@ -7,36 +7,15 @@ public class PiAloud {
 
 		// 2. Make a String variable to hold the value of Pi. You could use
 		// http://www.piday.org/million/ for the value.
-		String pi = "3.1415926535897932384626714";
+		String pi = "3.14159265358979323846267145098193845019843750139845092357109283475093487510934857013932801594850194385710349857413";
 	
 		// 3. Print out some digits of Pi. The first value is "pi.charAt(0)",
 		// the second is "pi.charAt(1)"
-		System.out.println(pi.charAt(0));
-		System.out.println(pi.charAt(1));
-		System.out.println(pi.charAt(2));
-		System.out.println(pi.charAt(3));
-		System.out.println(pi.charAt(4));
-		System.out.println(pi.charAt(5));
-		System.out.println(pi.charAt(6));
-		System.out.println(pi.charAt(7));
-		System.out.println(pi.charAt(8));
-		System.out.println(pi.charAt(9));
-		System.out.println(pi.charAt(10));
-		System.out.println(pi.charAt(11));
-		System.out.println(pi.charAt(12));
-		System.out.println(pi.charAt(13));
-		System.out.println(pi.charAt(14));
-		System.out.println(pi.charAt(15));
-		System.out.println(pi.charAt(16));
-		System.out.println(pi.charAt(17));
-		System.out.println(pi.charAt(18));
-		System.out.println(pi.charAt(19));
-		System.out.println(pi.charAt(20));
-		System.out.println(pi.charAt(21));
-		System.out.println(pi.charAt(22));
-		System.out.println(pi.charAt(23));
-		System.out.println(pi.charAt(24));
-		System.out.println(pi.charAt(25));
+	for (int i = 0; i < 100; i++) {
+		
+		System.out.println(pi.charAt(i));
+		speak(pi.charAt(i));
+	}
 		
 		// 4. Print ALL the digits of of Pi (hint: use a loop)
 
